@@ -46,6 +46,7 @@ attr_accessor :board
     if space == "X" || space == "O"
         number_of_turns += 1
     end
+    number_of_turns
   end
 end
   
