@@ -45,9 +45,9 @@ attr_accessor :board
     @board.each do |space|
     if space == "X" || space == "O"
         number_of_turns += 1
-        return number_of_turns
     end
   end
+  return number_of_turns
 end
 
 end
