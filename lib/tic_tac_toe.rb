@@ -35,4 +35,8 @@ attr_accessor :board
   def position_taken?(index_i)
     ((@board[index_i] == "X") || (@board[index_i] == "O"))
   end
+
+  ef valid_move?(index)
+    index.between?(0,8) && !position_taken?(index)
+  end
 end
