@@ -48,5 +48,5 @@ attr_accessor :board
     end
   end
 end
-  number_of_turns
+  
 end
